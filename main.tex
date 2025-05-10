@@ -1,0 +1,200 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+\addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Chaitanya Malepati} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone\ \underline{(617) 212-7423} ~ 
+    {\faEnvelope\  \underline{malepati.c@northeastern.edu}} ~ 
+    {\faLinkedin\ \underline{\href{https://www.linkedin.com/in/chaitanya-malepati/}{linkedin.com/in/chaitanya-malepati}}}  ~
+    {\faGithub\ \underline{\href{https://github.com/chaitanyamalepati}{github.com/chaitanyamalepati}}} ~
+    {\faBriefcase\ \underline{\href{https://chaitanyamalepati-portfolio.vercel.app/}{chaitanyamalepati-portfolio.vercel.app/}}}
+    \vspace{-8pt}
+\end{center}
+
+% %-----------SUMMARY-----------
+% \section{Summary}
+% \resumeItemListStart
+%     \resumeItem{Software engineering graduate student with hands-on experience in developer productivity tools and infrastructure automation. Designed custom debugging frameworks that cut troubleshooting time by 60\% and built monitoring dashboards that transformed system telemetry into actionable insights. Passionate about modernizing development workflows through containerization, cloud-native solutions, and intuitive developer experiences.}
+% \resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Northeastern University}{Expected Graduation: May 2026}
+      {Master's in Computer Software Engineering}{Boston, MA}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+        \resumeItem{Coursework: Object Oriented Design, Web Design, Program Structures and Algorithms, Cloud Computing}
+    \resumeItemListEnd
+    
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sri Venkateswara Engineering College}{Dec 2020 -- May 2024}
+      {Bachelor of Technology in Computer Science and Engineering}{Tirupati, India}
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Young Minds Technology Solutions}{Oct 2023 -- Mar 2024}{Software Engineer Intern}{India} 
+            \resumeItemListStart
+                \resumeItem{Contributed to software development life cycle by collaborating with the team to resolve bugs in \textbf{Node.js} and \textbf{Java}}
+                \resumeItem{Built and maintained \textbf{CI/CD pipelines} using \textbf{Jenkins} that reduced deployment time by \textbf{65\%}}
+                \resumeItem{Designed and optimized \textbf{MySQL} database schema that enhanced query performance by \textbf{35\%} in high-traffic applications}
+                \resumeItem{Created \textbf{shell scripts} to automate repetitive development tasks, improving team productivity}
+                \resumeItem{Implemented \textbf{ELK stack} for system performance tracking and log analysis, improving issue detection by \textbf{45\%}}
+                \resumeItem{Created comprehensive technical documentation for all processes and systems, decreasing onboarding time by \textbf{50\%}}
+            \resumeItemListEnd
+            
+        \resumeSubheading{SmartBridge \& SmartInternz}{Aug 2022 -- Oct 2022}{Salesforce Developer Intern}{Virtual Internship} 
+            \resumeItemListStart
+                \resumeItem{Earned \textbf{Apex Specialist} and \textbf{Process Automation Specialist} super badges demonstrating advanced proficiency}
+                \resumeItem{Designed and implemented automated workflows and approval processes to streamline business operations}
+                \resumeItem{Developed custom \textbf{Apex} triggers, classes, and test methods achieving \textbf{85\%+} code coverage}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Technical Projects} 
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{Hotel Booking System}}{Angular | Redux | ChatGPT API}
+            \resumeItemListStart
+                \resumeItem{Integrated \textbf{ChatGPT API} into a hotel booking system to automate customer inquiry responses, reducing response time by \textbf{80\%} and providing valuable insights into common customer concerns}
+                \resumeItem{Developed responsive user interface using \textbf{Angular} framework following modern design principles}
+                \resumeItem{Implemented state management using \textbf{Redux} to maintain consistent application state across components}
+            \resumeItemListEnd
+            
+        \resumeProjectHeading
+            {\textbf{Cloud Native Application}}{AWS | Jenkins | GitHub Actions}
+            \resumeItemListStart
+                \resumeItem{Automated \textbf{CI/CD pipelines} using \textbf{Jenkins} and \textbf{GitHub Actions} to test code, build \textbf{AMI} images and deployment}
+                \resumeItem{Configured DNS routing with \textbf{Route 53}, SSL termination via \textbf{ACM}, and domain management for end-to-end HTTPS}
+                \resumeItem{Orchestrated dynamic scaling using \textbf{Auto Scaling Groups} and \textbf{Elastic Load Balancer} that maintained \textbf{99.9\%} uptime during traffic spikes}
+                \resumeItem{Secured sensitive data using \textbf{AWS KMS}, encrypted EBS volumes/S3 buckets, and managed secrets via \textbf{AWS Secrets}}
+                \resumeItem{Implemented comprehensive unit and integration tests achieving \textbf{90\%+} code coverage for critical API endpoints}
+            \resumeItemListEnd
+            
+        \resumeProjectHeading
+            {\textbf{Session Management}}{Redis | Docker | Kubernetes}
+            \resumeItemListStart
+                \resumeItem{Developed a token-based authentication system with configurable timeout parameters to enhance security}
+                \resumeItem{Created detailed API documentation that served as a reference model for subsequent projects}
+                \resumeItem{Utilized \textbf{Redis} for high-performance caching, reducing database load by \textbf{55\%} and improving response times}
+                \resumeItem{Containerized the entire solution using \textbf{Docker} with \textbf{Kubernetes} orchestration, enabling seamless scaling}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{   
+     \textbf{Programming Languages}{: Python, JavaScript, Go, Java, C, C++, YAML} \\[1mm]
+     \textbf{Database Technologies}{: PostgreSQL, MongoDB, MySQL, Redis, SQL Server} \\[1mm]
+     \textbf{Web Technologies}{: React.js, Express.js, Spring Boot, HTML, Figma, Tailwind CSS, Angular} \\[1mm]
+     \textbf{Cloud Tools}{: AWS, Docker, CI/CD, Terraform, Ansible, Shell Scripting, Kubernetes, ELK Stack, Prometheus, Grafana} \\[1mm]
+     \textbf{Tools}{: Git, GitHub, IDEs, Linux, Vim, Microsoft Office}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
