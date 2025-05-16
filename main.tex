@@ -76,7 +76,7 @@
     \item
     \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-10pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -87,7 +87,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-10pt}}
 
 
 
@@ -100,53 +100,45 @@
     \faPhone\ \underline{(617) 212-7423} ~ 
     {\faEnvelope\  \underline{malepati.c@northeastern.edu}} ~ 
     {\faLinkedin\ \underline{\href{https://www.linkedin.com/in/chaitanya-malepati/}{linkedin.com/in/chaitanya-malepati}}}  ~
-    {\faGithub\ \underline{\href{https://github.com/chaitanyamalepati}{github.com/chaitanyamalepati}}} ~
-    {\faBriefcase\ \underline{\href{https://chaitanyamalepati-portfolio.vercel.app/}{chaitanyamalepati-portfolio.vercel.app/}}}
+    {\faGithub\ \underline{\href{https://github.com/malepatic}{github.com/malepatic}}}
     \vspace{-8pt}
 \end{center}
-
-% %-----------SUMMARY-----------
-% \section{Summary}
-% \resumeItemListStart
-%     \resumeItem{Software engineering graduate student with hands-on experience in developer productivity tools and infrastructure automation. Designed custom debugging frameworks that cut troubleshooting time by 60\% and built monitoring dashboards that transformed system telemetry into actionable insights. Passionate about modernizing development workflows through containerization, cloud-native solutions, and intuitive developer experiences.}
-% \resumeItemListEnd
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Northeastern University}{Expected Graduation: May 2026}
-      {Master's in Computer Software Engineering}{Boston, MA}
-  \resumeSubHeadingListEnd
-    \resumeItemListStart
-        \resumeItem{Coursework: Object Oriented Design, Web Design, Program Structures and Algorithms, Cloud Computing}
-    \resumeItemListEnd
-    
-    \resumeSubHeadingListStart
+      {Northeastern University, Boston, MA}{Expected May 2026}
+      {Master's in Computer Software Engineering}{}
     \resumeSubheading
-      {Sri Venkateswara Engineering College}{Dec 2020 -- May 2024}
-      {Bachelor of Technology in Computer Science and Engineering}{Tirupati, India}
-    \resumeSubHeadingListEnd
+      {Sri Venkateswara Engineering College, Tirupati, India}{Dec 2020 -- May 2024}
+      {Bachelor of Technology in Computer Science and Engineering}{}
+  \resumeSubHeadingListEnd
     \vspace{-12pt}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\resumeItemListStart
+    \resumeItem{\textbf{AWS Certified Cloud Practitioner}}
+\resumeItemListEnd
+\vspace{-5pt}
 
 %-----------EXPERIENCE-----------
 \section{Work Experience}
     \resumeSubHeadingListStart
-        \resumeSubheading{Young Minds Technology Solutions}{Oct 2023 -- Mar 2024}{Software Engineer Intern}{India} 
+        \resumeSubheading{Kodnest}{Jan 2024 -- Apr 2024}{Software Engineer Intern}{India} 
             \resumeItemListStart
-                \resumeItem{Contributed to software development life cycle by collaborating with the team to resolve bugs in \textbf{Node.js} and \textbf{Java}}
-                \resumeItem{Built and maintained \textbf{CI/CD pipelines} using \textbf{Jenkins} that reduced deployment time by \textbf{65\%}}
-                \resumeItem{Designed and optimized \textbf{MySQL} database schema that enhanced query performance by \textbf{35\%} in high-traffic applications}
-                \resumeItem{Created \textbf{shell scripts} to automate repetitive development tasks, improving team productivity}
-                \resumeItem{Implemented \textbf{ELK stack} for system performance tracking and log analysis, improving issue detection by \textbf{45\%}}
-                \resumeItem{Created comprehensive technical documentation for all processes and systems, decreasing onboarding time by \textbf{50\%}}
+                \resumeItem{Developed full-stack applications using \textbf{React}, \textbf{Node.js}, and \textbf{Spring Boot}, improving performance by \textbf{40\%}}
+                \resumeItem{Implemented responsive UI components with \textbf{React} and \textbf{Bootstrap}, enhancing user experience and reducing bounce rates by \textbf{25\%}}
+                \resumeItem{Designed RESTful APIs that improved client-server communication efficiency by \textbf{35\%}}
+                \resumeItem{Optimized \textbf{MySQL} database queries and schema design, resulting in \textbf{35\%} faster data retrieval for high-traffic applications}
             \resumeItemListEnd
             
         \resumeSubheading{SmartBridge \& SmartInternz}{Aug 2022 -- Oct 2022}{Salesforce Developer Intern}{Virtual Internship} 
             \resumeItemListStart
-                \resumeItem{Earned \textbf{Apex Specialist} and \textbf{Process Automation Specialist} super badges demonstrating advanced proficiency}
-                \resumeItem{Designed and implemented automated workflows and approval processes to streamline business operations}
-                \resumeItem{Developed custom \textbf{Apex} triggers, classes, and test methods achieving \textbf{85\%+} code coverage}
+                \resumeItem{Built custom Salesforce applications using \textbf{Apex}, \textbf{Visualforce}, and \textbf{Lightning Web Components}}
+                \resumeItem{Developed automated approval workflows that reduced manual processing time by \textbf{60\%}}
+                \resumeItem{Created comprehensive test classes for Apex code, achieving \textbf{85\%+} code coverage}
             \resumeItemListEnd
     \resumeSubHeadingListEnd
     \vspace{-12pt}
@@ -156,43 +148,44 @@
     \vspace{-5pt}
     \resumeSubHeadingListStart
         \resumeProjectHeading
-            {\textbf{Hotel Booking System}}{Angular | Redux | ChatGPT API}
+            {\textbf{Hotel Booking System}}{React -- Node.js -- ChatGPT API -- MongoDB}
+            \vspace{-5pt}
             \resumeItemListStart
-                \resumeItem{Integrated \textbf{ChatGPT API} into a hotel booking system to automate customer inquiry responses, reducing response time by \textbf{80\%} and providing valuable insights into common customer concerns}
-                \resumeItem{Developed responsive user interface using \textbf{Angular} framework following modern design principles}
-                \resumeItem{Implemented state management using \textbf{Redux} to maintain consistent application state across components}
+                \resumeItem{Developed a full-stack booking platform with \textbf{React} frontend and \textbf{Node.js} backend, providing seamless user experience}
+                \resumeItem{Integrated \textbf{ChatGPT API} for an intelligent chatbot that handled \textbf{80\%} of customer inquiries automatically}
+                \resumeItem{Implemented secure payment processing and user authentication, resulting in \textbf{35\%} increased bookings}
             \resumeItemListEnd
-            
+        \vspace{-15pt}    
         \resumeProjectHeading
-            {\textbf{Cloud Native Application}}{AWS | Jenkins | GitHub Actions}
+            {\textbf{Speech Recognition with Neural Networks}}{Python -- PyTorch -- TensorFlow -- NLP}
+            \vspace{-5pt}
+            \resumeItemListStart
+                \resumeItem{Developed an AI-powered speech recognition solution designed to improve accessibility for individuals}
+                \resumeItem{Volunteered weekly at a community center to help individuals with speech differences test and provide feedback}
+                \resumeItem{Enhanced an existing PyTorch-based speech recognition model, achieving a \textbf{62\%} improvement in recognition accuracy}
+                \resumeItem{Developed custom data augmentation techniques to improve recognition of underrepresented speech patterns}
+            \resumeItemListEnd
+        \vspace{-15pt}
+           \resumeProjectHeading
+            {\textbf{Cloud Native Application}}{AWS -- Jenkins -- GitHub Actions -- Terraform}
+            \vspace{-5pt}
             \resumeItemListStart
                 \resumeItem{Automated \textbf{CI/CD pipelines} using \textbf{Jenkins} and \textbf{GitHub Actions} to test code, build \textbf{AMI} images and deployment}
                 \resumeItem{Configured DNS routing with \textbf{Route 53}, SSL termination via \textbf{ACM}, and domain management for end-to-end HTTPS}
-                \resumeItem{Orchestrated dynamic scaling using \textbf{Auto Scaling Groups} and \textbf{Elastic Load Balancer} that maintained \textbf{99.9\%} uptime during traffic spikes}
+                \resumeItem{Orchestrated dynamic scaling using \textbf{Auto Scaling Groups} and \textbf{Elastic Load Balancer} that maintained \textbf{99.9\%} uptime}
                 \resumeItem{Secured sensitive data using \textbf{AWS KMS}, encrypted EBS volumes/S3 buckets, and managed secrets via \textbf{AWS Secrets}}
-                \resumeItem{Implemented comprehensive unit and integration tests achieving \textbf{90\%+} code coverage for critical API endpoints}
-            \resumeItemListEnd
-            
-        \resumeProjectHeading
-            {\textbf{Session Management}}{Redis | Docker | Kubernetes}
-            \resumeItemListStart
-                \resumeItem{Developed a token-based authentication system with configurable timeout parameters to enhance security}
-                \resumeItem{Created detailed API documentation that served as a reference model for subsequent projects}
-                \resumeItem{Utilized \textbf{Redis} for high-performance caching, reducing database load by \textbf{55\%} and improving response times}
-                \resumeItem{Containerized the entire solution using \textbf{Docker} with \textbf{Kubernetes} orchestration, enabling seamless scaling}
+
             \resumeItemListEnd
     \resumeSubHeadingListEnd
-    \vspace{-12pt}
+    \vspace{-5pt 
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{   
-     \textbf{Programming Languages}{: Python, JavaScript, Go, Java, C, C++, YAML} \\[1mm]
-     \textbf{Database Technologies}{: PostgreSQL, MongoDB, MySQL, Redis, SQL Server} \\[1mm]
-     \textbf{Web Technologies}{: React.js, Express.js, Spring Boot, HTML, Figma, Tailwind CSS, Angular} \\[1mm]
-     \textbf{Cloud Tools}{: AWS, Docker, CI/CD, Terraform, Ansible, Shell Scripting, Kubernetes, ELK Stack, Prometheus, Grafana} \\[1mm]
-     \textbf{Tools}{: Git, GitHub, IDEs, Linux, Vim, Microsoft Office}
+     \textbf{Languages \& Frameworks}: JavaScript, Python, Java, React, Node.js, Spring Boot, Express.js \\[1mm]
+     \textbf{Database \& Cloud}: PostgreSQL, MongoDB, MySQL, AWS (S3, EC2, Lambda, CloudFront) \\[1mm]
+     \textbf{Tools \& Others}: Git, RESTful APIs, Docker, CI/CD, Agile, Unit Testing, UI/UX Design
     }}
  \end{itemize}
  \vspace{-16pt}
